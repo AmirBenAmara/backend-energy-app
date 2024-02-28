@@ -5,7 +5,7 @@ const EnergyBreakdowns = require('./app/models/energy-breackdowns');
 const app = express();
 const port = 3000;
 const db = require('./app/database') ;
-// const csv = require('./app/importCsv');
+const csv = require('./app/importCsv');
 const cors = require('cors');
 
 app.use(cors())
